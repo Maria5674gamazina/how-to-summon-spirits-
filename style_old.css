@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+color: rgb(36, 2, 37);
+text-align: center;    
+}
+/* .header{
+color: rgb(20, 180, 127);
+text-align: center;    
+} */
+section{
+width: 80%;    
+margin: 0 auto;
+display: flex;
+
+}
+text{
+  width: 66%; 
+  color: black; 
+  display:flex ;
+}
+
+.img{
+ width: 33px;   
+}
+.wrapper{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.dog{    
+width: 500px; 
+height: 300px;
+top: 0;
+margin-left: 500px;
+
+}
+body{
+background-image: url("image/leaves-background-with-metallic-foil_79603-956.avif");    
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover ;
+}
+.bth{
+color: black;
+text-decoration: none;    
+border: 1px solid;
+border-radius: 5px;
+padding: 4px 10px;
+margin: 20px;
+background-color: aqua;
+transition: 1.2s;
+}
+.bth:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+}
+.header{
+background-color: aliceblue;
+width: 100%;
+height: 50px;
+display: flex; 
+align-items:center;
+}
+.header ul{
+    margin: 0;
+   display: flex; 
+   align-items:center;
+   justify-content:space-around;
+    width: 100%;
+    list-style-type: none ;
+}
+.header a{
+ color: black;   
+ text-decoration: none;
+ font-size: 20px;
+ text-transform: uppercase;
+ transition: .6s;
+}
+.header a:hover{
+color: aquamarine;   
+background-color: black; 
+padding: 10px 20px;
+border-radius: 10px;
+}
+
